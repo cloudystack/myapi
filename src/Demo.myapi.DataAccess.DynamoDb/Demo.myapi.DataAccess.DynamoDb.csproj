@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.myapi.DataAccess.Core\Demo.myapi.DataAccess.Core.csproj" />
+    <ProjectReference Include="..\Demo.myapi.Util.Options\Demo.myapi.Util.Options.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.3.12" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>
